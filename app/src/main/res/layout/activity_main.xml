@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tbthongao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Máy tính"
+        android:textSize="40sp"
+        tools:text="Máy tính" />
+
+    <EditText
+        android:id="@+id/etso1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập số thứ nhất"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etso2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập số thứ 2"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tvketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btncong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cộng" />
+
+    <Button
+        android:id="@+id/btntru"
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
+        android:text="Trừ" />
+
+    <Button
+        android:id="@+id/btnnhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhân" />
+
+    <Button
+        android:id="@+id/btnchia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chia" />
+</LinearLayout>
